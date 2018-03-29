@@ -1,0 +1,301 @@
+{
+  "General":{
+    "TimedPointsReward":{
+      "Enabled":true,
+      "Interval":15,
+      "Groups":{
+        "Default":{
+          "Amount":15
+        },
+        "Premiums":{
+          "Amount":15
+        }
+      }
+    },
+    "ItemsPerPage":20,
+    "ShopDisplayTime":30.0,
+    "ShopTextSize":1.3,
+    "DbPathOverride":"C:/SERVER/Ark_shop_db/ArkShop.db"
+  },
+  "Kits":{
+    "Start":{
+     "DefaultAmount":2,
+     "Description":"Starter kit",
+     "Items":[
+       {
+         "Amount":1,
+         "Quality":0,
+         "ForceBlueprint":false,
+        "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+       },
+       {
+         "Amount":1,
+         "Quality":0,
+           "ForceBlueprint":false,
+         "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick'"
+       },
+	   {
+         "Amount":1,
+         "Quality":0,
+           "ForceBlueprint":false,
+         "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalHatchet.PrimalItem_WeaponMetalHatchet'"
+       },
+	   {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStoneClub.PrimalItem_WeaponStoneClub'"
+       },
+	   {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponBow.PrimalItem_WeaponBow'"
+       },
+	   	   {
+          "Amount":10,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ArrowTranq.PrimalItemAmmo_ArrowTranq'"
+       }   
+     ]
+    }
+  },
+  "ShopItems":{
+    "Crate1":{
+      "Type":"beacon",
+      "Description":"Lootcrate 1 (weapon and armour)",
+      "Price":900,
+      "ClassName":"SupplyCrate_Random_Box1_C"
+    },
+    "Brute":{
+      "Type":"item",
+      "Description":"Artifact Of The Brute",
+      "Price":400,
+      "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_12.PrimalItemArtifact_12'"
+        }
+      ]
+    },
+	"Clever":{
+      "Type":"item",
+      "Description":"Artifact Of The Clever",
+      "Price":400,
+      "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_05.PrimalItemArtifact_05'"
+        }
+      ]
+    },
+	"Cunning":{
+      "Type":"item",
+      "Description":"Artifact Of The Cunning",
+      "Price":400,
+      "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_11.PrimalItemArtifact_11'"
+        }
+      ]
+    },
+	"Devourer":{
+      "Type":"item",
+      "Description":"Artifact Of The Devourer",
+      "Price":400,
+      "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_07.PrimalItemArtifact_07'"
+        }
+      ]
+    },
+	"Hunter":{
+      "Type":"item",
+      "Description":"Artifact Of The Hunter",
+      "Price":400,
+      "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_01.PrimalItemArtifact_01'"
+        }
+      ]
+    },
+	"Immune":{
+      "Type":"item",
+      "Description":"Artifact Of The Immune",
+      "Price":400,
+      "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_08.PrimalItemArtifact_08'"
+        }
+      ]
+    },
+	"Massive":{
+      "Type":"item",
+      "Description":"Artifact Of The Massive",
+      "Price":400,
+      "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_03.PrimalItemArtifact_03'"
+        }
+      ]
+    },
+	"Pack":{
+      "Type":"item",
+      "Description":"Artifact Of The Pack",
+      "Price":400,
+      "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_02.PrimalItemArtifact_02'"
+        }
+      ]
+    },
+	"Skylord":{
+      "Type":"item",
+      "Description":"Artifact Of The Skylord",
+      "Price":400,
+      "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_06.PrimalItemArtifact_06'"
+        }
+      ]
+    },
+	"Strong":{
+      "Type":"item",
+      "Description":"Artifact Of The Skylord",
+      "Price":400,
+      "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_09.PrimalItemArtifact_09'"
+        }
+      ]
+    },
+	"Devious":{
+    "Type":"item",
+    "Description":"Artifact Of The Devious",
+    "Price":400,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_04.PrimalItemArtifact_04'"
+        }
+      ]
+  },
+  "Depths":{
+    "Type":"item",
+    "Description":"Artifact Of The Depths",
+    "Price":400,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB.PrimalItemArtifactAB'"
+        }
+      ]
+  },
+    "Shadows":{
+    "Type":"item",
+    "Description":"Artifact Of The Shadows",
+    "Price":400,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB_2.PrimalItemArtifactAB_2'"
+        }
+      ]
+  },
+  "Stalker":{
+    "Type":"item",
+    "Description":"Artifact Of The Shadows",
+    "Price":400,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB_3.PrimalItemArtifactAB_3'"
+        }
+      ]
+  },
+  "Achatina":{
+  "Type":"dino",
+  "Description":"Achatina",
+  "Level":75,
+  "Price":400,
+  "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP'"
+    }
+},
+  "Messages":{
+    "Sender":"SaltyBay",
+    "BoughtItem":"<RichColor Color=\"0, 1, 0, 1\">You have successfully bought item</>",
+    "BoughtDino":"<RichColor Color=\"0, 1, 0, 1\">You have successfully bought dino</>",
+    "BoughtBeacon":"<RichColor Color=\"0, 1, 0, 1\">You have successfully bought beacon</>",
+    "BoughtExp":"<RichColor Color=\"0, 1, 0, 1\">You have successfully bought experience</>",
+    "ReceivedPoints":"<RichColor Color=\"1, 1, 0, 1\">You have received {0} points! (total: {1})</>",
+    "HavePoints":"You have {0} points",
+    "NoPoints":"<RichColor Color=\"1, 0, 0, 1\">You don't have enough points</>",
+    "WrongId":"<RichColor Color=\"1, 0, 0, 1\">Wrong id</>",
+    "NoPermissionsKit":"<RichColor Color=\"1, 0, 0, 1\">You don't have permission to use this kit</>",
+    "CantBuyKit":"<RichColor Color=\"1, 0, 0, 1\">You can't buy this kit</>",
+    "BoughtKit":"<RichColor Color=\"0, 1, 0, 1\">You have successfully bought {0} kit</>",
+    "AvailableKits":"Available kits for you:",
+    "NoKits":"No available kits",
+    "KitsLeft":"You have {0} {1} kits left",
+    "NoKitsLeft":"You don't have {0} kits left",
+    "CantGivePoints":"<RichColor Color=\"1, 0, 0, 1\">You can't give points to yourself</>",
+    "RidingDino":"<RichColor Color=\"1, 0, 0, 1\">You can't buy this item while riding a dino</>",
+    "SentPoints":"<RichColor Color=\"0, 1, 0, 1\">You have successfully sent {0} points to {1}</>",
+    "GotPoints":"You have received {0} points from {1}",
+    "NoPlayer":"<RichColor Color=\"1, 0, 0, 1\">Player doesn't exist</>",
+    "FoundMorePlayers":"<RichColor Color=\"1, 0, 0, 1\">Found more than one player with the given name</>",
+    "BuyUsage":"Usage: /buy id amount",
+    "ShopUsage":"Usage: /shop page",
+    "KitUsage":"Usage: /kit KitName",
+    "BuyKitUsage":"Usage: /BuyKit KitName amount",
+    "TradeUsage":"Usage: /trade 'Player Name' amount",
+    "PointsCmd":"/points",
+    "TradeCmd":"/trade",
+    "BuyCmd":"/buy",
+    "ShopCmd":"/shop",
+    "KitCmd":"/kit",
+    "BuyKitCmd":"/buykit",
+    "SellCmd":"/sell",
+    "ShopSellCmd":"/shopsell",
+    "SellUsage":"Usage: /sell id amount",
+    "NotEnoughItems":"<RichColor Color=\"1, 0, 0, 1\">You don't have enough items ({0}/{1})</>",
+    "SoldItems":"<RichColor Color=\"0, 1, 0, 1\">You have successfully sold items</>"
+  }
+}
