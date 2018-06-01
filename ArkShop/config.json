@@ -15,12 +15,14 @@
     "ItemsPerPage":20,
     "ShopDisplayTime":30.0,
     "ShopTextSize":1.3,
-    "DbPathOverride":"C:/SERVER/Ark_shop_db/ArkShop.db"
+    "DbPathOverride":"C:/SERVER/Ark_shop_db/ArkShop.db",
+	"DefaultKit":"Start"
   },
   "Kits":{
     "Start":{
      "DefaultAmount":2,
      "Description":"Starter kit",
+	 "OnlyFromSpawn":false,
      "Items":[
        {
          "Amount":1,
@@ -67,6 +69,12 @@
       "Description":"Lootcrate 1 (weapon and armour)",
       "Price":900,
       "ClassName":"SupplyCrate_Random_Box1_C"
+    },
+	  "CrateAb":{
+      "Type":"beacon",
+      "Description":"Lootcrate Aberration (weapon and armour(hazard))",
+      "Price":900,
+      "ClassName":"SupplyCrate_Random_Box2_C"
     },
     "Brute":{
       "Type":"item",
@@ -255,6 +263,7 @@
   "Description":"Achatina",
   "Level":75,
   "Price":400,
+  "Neutered":true,
   "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP'"
     }
 },
@@ -296,6 +305,13 @@
     "ShopSellCmd":"/shopsell",
     "SellUsage":"Usage: /sell id amount",
     "NotEnoughItems":"<RichColor Color=\"1, 0, 0, 1\">You don't have enough items ({0}/{1})</>",
-    "SoldItems":"<RichColor Color=\"0, 1, 0, 1\">You have successfully sold items</>"
+    "SoldItems":"<RichColor Color=\"0, 1, 0, 1\">You have successfully sold items</>",
+    "BadLevel":"<RichColor Color=\"1, 0, 0, 1\">Required level: {0} - {1}</>",
+    "KitsListPrice":"Price: {0}",
+    "KitsListFormat":"\"{0}\" - {1}. {2} left. {3}\n",
+    "StoreListDino":"{0}) {1}. Level: {2}. Id: {3}. Price: {4}\n",
+    "StoreListItem":"{0}) {1}. Id: {2}. Price: {3}\n",
+    "StoreListFormat":"{0}",
+    "OnlyOnSpawnKit":"This kit can be used only on spawn"
   }
 }
