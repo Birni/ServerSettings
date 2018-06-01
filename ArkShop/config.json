@@ -64,18 +64,6 @@
     }
   },
   "ShopItems":{
-    "Crate1":{
-      "Type":"beacon",
-      "Description":"Lootcrate 1 (weapon and armour)",
-      "Price":900,
-      "ClassName":"SupplyCrate_Random_Box1_C"
-    },
-	  "CrateAb":{
-      "Type":"beacon",
-      "Description":"Lootcrate Aberration (weapon and armour(hazard))",
-      "Price":900,
-      "ClassName":"SupplyCrate_Random_Box2_C"
-    },
     "Brute":{
       "Type":"item",
       "Description":"Artifact Of The Brute",
@@ -258,6 +246,295 @@
         }
       ]
   },
+  "Talon":{
+    "Type":"item",
+    "Description":"Argentavis Talon",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Argentavis.PrimalItemResource_ApexDrop_Argentavis'"
+        }
+      ]
+  },
+  "Vertebra":{
+    "Type":"item",
+    "Description":"Sauropod Vertebra",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sauro.PrimalItemResource_ApexDrop_Sauro'"
+        }
+      ]
+  },
+  "Skin":{
+    "Type":"item",
+    "Description":"Sarcosuchus Skin",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sarco.PrimalItemResource_ApexDrop_Sarco'"
+        }
+      ]
+  },
+  "Venom":{
+    "Type":"item",
+    "Description":"Titanoboa Venom",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Boa.PrimalItemResource_ApexDrop_Boa'"
+        }
+      ]
+  },
+  "Sail":{
+    "Type":"item",
+    "Description":"Spinosaurus Sail",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Spino.PrimalItemResource_ApexDrop_Spino'"
+        }
+      ]
+  },
+  "Toxin":{
+    "Type":"item",
+    "Description":"Megalania Toxin",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalania.PrimalItemResource_ApexDrop_Megalania'"
+        }
+      ]
+  },
+  "Hook-Claw":{
+    "Type":"item",
+    "Description":"Thylacoleo Hook-Claw",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Thylaco.PrimalItemResource_ApexDrop_Thylaco'"
+        }
+      ]
+  },
+  "Tooth":{
+    "Type":"item",
+    "Description":"Megalodon Tooth ",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalodon.PrimalItemResource_ApexDrop_Megalodon'"
+        }
+      ]
+  },
+  "Claws":{
+    "Type":"item",
+    "Description":"Therizino Claws",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_apexdrop_theriz.primalitemresource_apexdrop_theriz'"
+        }
+      ]
+  },
+  "Tentacle":{
+    "Type":"item",
+    "Description":"Tusoteuthis Tentacle",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Tuso.PrimalItemResource_ApexDrop_Tuso'"
+        }
+      ]
+  },
+  "Blubber":{
+    "Type":"item",
+    "Description":"Basilosaurus Blubber",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilo.PrimalItemResource_ApexDrop_Basilo'"
+        }
+      ]
+  },
+  "Heart":{
+    "Type":"item",
+    "Description":"Giganotosaurus Heart",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_apexdrop_giga.primalitemresource_apexdrop_giga'"
+        }
+      ]
+  },
+  "Arm":{
+    "Type":"item",
+    "Description":"Tyrannosaurus Arm",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Rex.PrimalItemResource_ApexDrop_Rex'"
+        }
+      ]
+  },
+  "Brain":{
+    "Type":"item",
+    "Description":"Allosaurus Brain",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo'"
+        }
+      ]
+  },
+  "Lungs":{
+    "Type":"item",
+    "Description":"Yutyrannus Lungs",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_apexdrop_Yuty.primalitemresource_apexdrop_yuty'"
+        }
+      ]
+  },
+  "Scale":{
+    "Type":"item",
+    "Description":"Basilisk Scale",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk.PrimalItemResource_ApexDrop_Basilisk'"
+        }
+      ]
+  },
+  "N-Venom":{
+    "Type":"item",
+    "Description":"Nameless Venom",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemConsumable_NamelessVenom.PrimalItemConsumable_NamelessVenom'"
+        }
+      ]
+  },
+  "Gland":{
+    "Type":"item",
+    "Description":"Reaper Pheromone Gland",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_XenomorphPheromoneGland.PrimalItemResource_XenomorphPheromoneGland'"
+        }
+      ]
+  },
+  "Feather":{
+    "Type":"item",
+    "Description":"Rock Drake Feather",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_RockDrake.PrimalItemResource_ApexDrop_RockDrake'"
+        }
+      ]
+  },
+  "Fang":{
+    "Type":"item",
+    "Description":"Alpha Basilisk Fang",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk_Alpha.PrimalItemResource_ApexDrop_Basilisk_Alpha'"
+        }
+      ]
+  },
+  "K-Claw":{
+    "Type":"item",
+    "Description":"Alpha Karkinos Claw",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_CrabClaw.PrimalItemResource_ApexDrop_CrabClaw'"
+        }
+      ]
+  },
+  "Barb":{
+    "Type":"item",
+    "Description":"Alpha Reaper King Barb",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_ReaperBarb.PrimalItemResource_ApexDrop_ReaperBarb'"
+        }
+      ]
+  },
+  
+  
+  
   "Achatina":{
   "Type":"dino",
   "Description":"Achatina",
