@@ -54,6 +54,12 @@
           "ForceBlueprint":false,
           "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponBow.PrimalItem_WeaponBow'"
        },
+	   {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSickle.PrimalItem_WeaponSickle'"
+       },
 	   	   {
           "Amount":10,
           "Quality":0,
