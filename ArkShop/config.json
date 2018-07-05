@@ -113,6 +113,19 @@
 			}
 		]
     },
+    "Brute":{
+      "Type":"item",
+      "Description":"Artifact Of The Brute",
+      "Price":400,
+      "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_12.PrimalItemArtifact_12'"
+        }
+      ]
+    },
 	"Clever":{
       "Type":"item",
       "Description":"Artifact Of The Clever",
@@ -230,19 +243,6 @@
         }
       ]
     },
-	"Devious":{
-    "Type":"item",
-    "Description":"Artifact Of The Devious",
-    "Price":400,
-    "Items":[
-        {
-          "Quality":0,
-          "ForceBlueprint":false,
-          "Amount":1,
-          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_04.PrimalItemArtifact_04'"
-        }
-      ]
-  },
   "Talon":{
     "Type":"item",
     "Description":"Argentavis Talon",
@@ -347,6 +347,19 @@
         }
       ]
   },
+  "Claws":{
+    "Type":"item",
+    "Description":"Therizino Claws",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_apexdrop_theriz.primalitemresource_apexdrop_theriz'"
+        }
+      ]
+  },
   "Tentacle":{
     "Type":"item",
     "Description":"Tusoteuthis Tentacle",
@@ -373,6 +386,110 @@
         }
       ]
   },
+  "Heart":{
+    "Type":"item",
+    "Description":"Giganotosaurus Heart",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_apexdrop_giga.primalitemresource_apexdrop_giga'"
+        }
+      ]
+  },
+  "Arm":{
+    "Type":"item",
+    "Description":"Tyrannosaurus Arm",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Rex.PrimalItemResource_ApexDrop_Rex'"
+        }
+      ]
+  },
+  "Brain":{
+    "Type":"item",
+    "Description":"Allosaurus Brain",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo'"
+        }
+      ]
+  },
+  "Lungs":{
+    "Type":"item",
+    "Description":"Yutyrannus Lungs",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_apexdrop_Yuty.primalitemresource_apexdrop_yuty'"
+        }
+      ]
+  },
+  "TekCave":{
+  "Type":"item",
+  "Description":"Apex for Tek Cave Alpha",
+  "Price":900,
+   "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRaptor.PrimalItemResource_ApexDrop_AlphaRaptor'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaCarno.PrimalItemResource_ApexDrop_AlphaCarno'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRex.PrimalItemResource_ApexDrop_AlphaRex'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMegalodon.PrimalItemResource_ApexDrop_AlphaMegalodon'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMosasaur.PrimalItemResource_ApexDrop_AlphaMosasaur'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaTuso.PrimalItemResource_ApexDrop_AlphaTuso'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaLeeds.PrimalItemResource_ApexDrop_AlphaLeeds'"
+        }
+		
+      ]
+  },
+  
+  
   
   "Achatina":{
   "Type":"dino",
@@ -381,7 +498,7 @@
   "Price":400,
   "Neutered":true,
   "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP'"
-   },
+    },
   "Beetle":{
   "Type":"dino",
   "Description":"Dung Beetle",
