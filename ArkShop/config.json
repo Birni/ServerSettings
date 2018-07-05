@@ -388,7 +388,7 @@
   "Level":75,
   "Price":400,
   "Neutered":true,
-  "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP_Aberrant.DungBeetle_Character_BP_Aberrant'"
+  "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP.DungBeetle_Character_BP'"
     }
 },
   "Messages":{
