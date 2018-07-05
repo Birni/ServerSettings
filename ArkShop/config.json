@@ -215,6 +215,14 @@
   "Price":400,
   "Neutered":true,
   "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP'"
+    },
+ "Beetle":{
+  "Type":"dino",
+  "Description":"Dung Beetle",
+  "Level":75,
+  "Price":400,
+  "Neutered":true,
+  "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP_Aberrant.DungBeetle_Character_BP_Aberrant'"
     }
 },
   "Messages":{
