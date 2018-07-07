@@ -161,10 +161,10 @@
   "Rockwell":{
     "Type":"item",
     "Description":"apex tribute for the alpha rockwell",
-    "Price":300,
+    "Price":900,
     "Items":[
         {
-          "Quality":900,
+          "Quality":0,
           "ForceBlueprint":false,
           "Amount":8,
           "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk.PrimalItemResource_ApexDrop_Basilisk'"
