@@ -70,19 +70,18 @@
     }
   },
   "ShopItems":{
-    "Crate1":{
-      "Type":"beacon",
-      "Description":"Lootcrate 1 (weapon and armour)",
-      "Price":900,
-      "ClassName":"SupplyCrate_Random_Box1_C"
-    },
-	  "CrateAb":{
+	"Crate1":{
+		"Type":"beacon",
+		"Description":"Lootcrate 1 (weapon and armour)",
+		"Price":900,
+		"ClassName":"SupplyCrate_Random_Box1_C"
+	},
+	"CrateAb":{
       "Type":"beacon",
       "Description":"Lootcrate Aberration (weapon and armour(hazard))",
       "Price":900,
       "ClassName":"SupplyCrate_Random_Box2_C"
     },
-
 	"MiscBp":{
     "Type":"item",
     "Description":"blueprint for stone arrow, tranq arrow, bola and parachute",
@@ -211,98 +210,7 @@
   },
   
    
-    "Broodmother":{  
-    "Type":"unlockengram",
-    "Description":"unlock all Broodmother engrams",
-    "Price":100,
-    "Items":[
-        { 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle_Tek.PrimalItemArmor_MosaSaddle_Tek'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretTek.PrimalItemStructure_TurretTek'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWall.PrimalItemStructure_TekWall'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/tek/PrimalItemStructure_TekStairs.PrimalItemStructure_TekStairs'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekRamp.PrimalItemStructure_TekRamp'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/tek/PrimalItemStructure_TekRailing.PrimalItemStructure_Tekrailing'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekPillar.PrimalItemStructure_TekPillar'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekLadder.PrimalItemStructure_TekLadder'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekHelmet.PrimalItemArmor_TekHelmet'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekFloor.PrimalItemStructure_TekFloor'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/tek/PrimalItemStructure_Tekfencefoundation.PrimalItemStructure_Tekfencefoundation'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekCeiling.PrimalItemStructure_TekCeiling'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekCatwalk.PrimalItemStructure_TekCatwalk'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Tek/PrimalItemArmor_TekBoots.PrimalItemArmor_TekBoots'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/tek/PrimalItemStructure_TekWall_Sloped_Right.PrimalItemStructure_TekWall_Sloped_Right'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/tek/PrimalItemStructure_TekWall_Sloped_Left.PrimalItemStructure_TekWall_Sloped_Left'"
-        },
-        {    
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/tek/PrimalItemStructure_TekRoof.PrimalItemStructure_TekRoof'"
-        }
-      ]
-    },
-	
-	"Megapithecus":{  
-    "Type":"unlockengram",
-    "Description":"unlock all Megapithecus engrams",
-    "Price":100,
-    "Items":[
-        { 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGate.PrimalItemStructure_TekGate'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWallWithWindow.PrimalItemStructure_TekWallWithWindow'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWindow.PrimalItemStructure_TekWindow'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekTrapdoor.PrimalItemStructure_TekTrapdoor'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekCeilingWithTrapdoor.PrimalItemStructure_TekCeilingWithTrapdoor'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWallwithdoor.PrimalItemStructure_TekWallwithdoor'"
-        },
-		{ 
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekDoor.PrimalItemStructure_TekDoor'"
-        },
-        {    
-		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGateframe.PrimalItemStructure_TekGateframe'"
-        }
-      ]
-    },
-  
-  
+ 
   
   "Achatina":{
   "Type":"dino",
