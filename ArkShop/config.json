@@ -70,12 +70,12 @@
     }
   },
   "ShopItems":{
-      "Crate1":{
-      "Type":"beacon",
-      "Description":"Lootcrate 1 (weapon and armour)",
-      "Price":900,
-      "ClassName":"SupplyCrate_Random_Box1_C"
-    },
+  "Crate1":{
+		"Type":"beacon",
+		"Description":"Lootcrate 1 (weapon and armour)",
+		"Price":900,
+		"ClassName":"SupplyCrate_Random_Box1_C"
+	},
 	"MiscBp":{
     "Type":"item",
     "Description":"blueprint for stone arrow, tranq arrow, bola and parachute",
