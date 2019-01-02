@@ -67,8 +67,84 @@
           "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ArrowTranq.PrimalItemAmmo_ArrowTranq'"
        }   
      ]
+    },
+	"Ptera":{
+    "DefaultAmount":1,
+    "Description":"Starter Pteranodon (Level 150)",
+	"OnlyFromSpawn":false,
+      "Items":[ 
+        {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'"
+        }
+      ],
+      "Dinos":[ 
+        {
+          "Level":150,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'" 
+        }
+      ]
+    },
+	"Argent":{
+    "DefaultAmount":1,
+    "Description":"Starter Argentavis (Level 150)",
+	"OnlyFromSpawn":false,
+      "Items":[ 
+        {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArgentavisSaddle.PrimalItemArmor_ArgentavisSaddle'"
+        }
+      ],
+      "Dinos":[ 
+        {
+          "Level":150,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP'" 
+        }
+      ]
+    },
+	"Ankylo":{
+    "DefaultAmount":1,
+    "Description":"Starter Ankylo (Level 150)",
+	"OnlyFromSpawn":false,
+      "Items":[ 
+        {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AnkyloSaddle.PrimalItemArmor_AnkyloSaddle'"
+        }
+      ],
+      "Dinos":[ 
+        {
+          "Level":150,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'" 
+        }
+      ]
+    },
+	"Doedi":{
+    "DefaultAmount":1,
+    "Description":"Starter Doedicurus (Level 150)",
+	"OnlyFromSpawn":false,
+      "Items":[ 
+        {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DoedSaddle.PrimalItemArmor_DoedSaddle'"
+        }
+      ],
+      "Dinos":[ 
+        {
+          "Level":150,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'" 
+        }
+      ]
     }
-  },
+	},
   "ShopItems":{
   "Crate1":{
 		"Type":"beacon",
