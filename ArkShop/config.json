@@ -67,6 +67,64 @@
           "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ArrowTranq.PrimalItemAmmo_ArrowTranq'"
        }   
      ]
+    },
+
+	"Megalo":{
+    "DefaultAmount":1,
+    "Description":"Starter Megalosaurus (Level 150)",
+	"OnlyFromSpawn":false,
+      "Items":[ 
+        {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalosaurusSaddle.PrimalItemArmor_MegalosaurusSaddle'"
+        }
+      ],
+      "Dinos":[ 
+        {
+          "Level":150,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP_Aberrant.Megalosaurus_Character_BP_Aberrant'" 
+        }
+      ]
+    },
+	"Ankylo":{
+    "DefaultAmount":1,
+    "Description":"Starter Ankylo (Level 150)",
+	"OnlyFromSpawn":false,
+      "Items":[ 
+        {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP_Aberrant.Ankylo_Character_BP_Aberrant'"
+        }
+      ],
+      "Dinos":[ 
+        {
+          "Level":150,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'" 
+        }
+      ]
+    },
+	"Doedi":{
+    "DefaultAmount":1,
+    "Description":"Starter Doedicurus (Level 150)",
+	"OnlyFromSpawn":false,
+      "Items":[ 
+        {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DoedSaddle.PrimalItemArmor_DoedSaddle'"
+        }
+      ],
+      "Dinos":[ 
+        {
+          "Level":150,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP_Aberrant.Doed_Character_BP_Aberrant'"
+        }
+      ]
     }
   },
   "ShopItems":{
