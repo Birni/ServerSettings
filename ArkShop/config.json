@@ -7,8 +7,8 @@
         "Default":{
           "Amount":15
         },
-        "Premiums":{
-          "Amount":15
+        "premiums":{
+          "Amount":30
         }
       }
     },
@@ -60,73 +60,15 @@
           "ForceBlueprint":false,
           "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSickle.PrimalItem_WeaponSickle'"
        },
-	   	   {
+	   {
           "Amount":10,
           "Quality":0,
           "ForceBlueprint":false,
           "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ArrowTranq.PrimalItemAmmo_ArrowTranq'"
        }   
      ]
-    },
-
-	"Megalo":{
-    "DefaultAmount":1,
-    "Description":"Starter Megalosaurus (Level 150)",
-	"OnlyFromSpawn":false,
-      "Items":[ 
-        {
-          "Amount":1,
-          "Quality":0,
-          "ForceBlueprint":false,
-          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalosaurusSaddle.PrimalItemArmor_MegalosaurusSaddle'"
-        }
-      ],
-      "Dinos":[ 
-        {
-          "Level":150,
-          "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP_Aberrant.Megalosaurus_Character_BP_Aberrant'" 
-        }
-      ]
-    },
-	"Ankylo":{
-    "DefaultAmount":1,
-    "Description":"Starter Ankylo (Level 150)",
-	"OnlyFromSpawn":false,
-      "Items":[ 
-        {
-          "Amount":1,
-          "Quality":0,
-          "ForceBlueprint":false,
-          "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP_Aberrant.Ankylo_Character_BP_Aberrant'"
-        }
-      ],
-      "Dinos":[ 
-        {
-          "Level":150,
-          "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'" 
-        }
-      ]
-    },
-	"Doedi":{
-    "DefaultAmount":1,
-    "Description":"Starter Doedicurus (Level 150)",
-	"OnlyFromSpawn":false,
-      "Items":[ 
-        {
-          "Amount":1,
-          "Quality":0,
-          "ForceBlueprint":false,
-          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DoedSaddle.PrimalItemArmor_DoedSaddle'"
-        }
-      ],
-      "Dinos":[ 
-        {
-          "Level":150,
-          "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP_Aberrant.Doed_Character_BP_Aberrant'"
-        }
-      ]
     }
-  },
+	},
   "ShopItems":{
 	"Crate1":{
 		"Type":"beacon",
@@ -139,6 +81,19 @@
       "Description":"Lootcrate Aberration (weapon and armour(hazard))",
       "Price":900,
       "ClassName":"SupplyCrate_Random_Box2_C"
+    },
+	"Cryo":{
+      "Type":"item",
+      "Description":"Cryopod",
+      "Price":150,
+      "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponEmptyCryopod.PrimalItem_WeaponEmptyCryopod'"
+        }
+      ]
     },
 	"MiscBp":{
     "Type":"item",
@@ -267,8 +222,7 @@
 	  ]
   },
   
-   
- 
+
   
   "Achatina":{
   "Type":"dino",
@@ -277,14 +231,14 @@
   "Price":400,
   "Neutered":true,
   "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP'"
-    },
- "Beetle":{
+   },
+  "Beetle":{
   "Type":"dino",
   "Description":"Dung Beetle",
   "Level":75,
   "Price":400,
   "Neutered":true,
-  "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP_Aberrant.DungBeetle_Character_BP_Aberrant'"
+  "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP.DungBeetle_Character_BP'"
     }
 },
   "Messages":{
