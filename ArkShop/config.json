@@ -1,4 +1,11 @@
 {
+  "Mysql":{  
+    "UseMysql":true,
+    "MysqlHost":"185.38.149.15",
+    "MysqlUser":"Extinction",
+    "MysqlPass":"[secret]",
+    "MysqlDB":"arkshopdb"
+  },
   "General":{
     "TimedPointsReward":{
       "Enabled":true,
@@ -15,7 +22,7 @@
     "ItemsPerPage":20,
     "ShopDisplayTime":30.0,
     "ShopTextSize":1.3,
-    "DbPathOverride":"C:/SERVER/Ark_shop_db/ArkShop.db",
+    "DbPathOverride":"",
 	"DefaultKit":""
   },
   "Kits":{
@@ -76,6 +83,12 @@
 		"Price":900,
 		"ClassName":"SupplyCrate_Random_Box1_C"
 	},
+	"CrateAb":{
+      "Type":"beacon",
+      "Description":"Lootcrate Aberration (weapon and armour(hazard))",
+      "Price":900,
+      "ClassName":"SupplyCrate_Random_Box2_C"
+    },
 	"Cryo":{
       "Type":"item",
       "Description":"Cryopod",
@@ -125,6 +138,19 @@
 			"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_SleepingBag_Hide.PrimalItemStructure_SleepingBag_Hide'"
 			}
 		]
+    },
+	"Brute":{
+      "Type":"item",
+      "Description":"Artifact Of The Brute",
+      "Price":400,
+      "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_12.PrimalItemArtifact_12'"
+        }
+      ]
     },
 	"Clever":{
       "Type":"item",
@@ -256,6 +282,95 @@
         }
       ]
   },
+  	"Depths":{
+    "Type":"item",
+    "Description":"Artifact Of The Depths",
+    "Price":400,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB.PrimalItemArtifactAB'"
+        }
+      ]
+	},
+    "Shadows":{
+    "Type":"item",
+    "Description":"Artifact Of The Shadows",
+    "Price":400,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB_2.PrimalItemArtifactAB_2'"
+        }
+      ]
+  },
+  "Stalker":{
+    "Type":"item",
+    "Description":"Artifact Of The Stalker",
+    "Price":400,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB_3.PrimalItemArtifactAB_3'"
+        }
+      ]
+  },
+  "Rockwell":{
+    "Type":"item",
+    "Description":"apex tribute for the alpha rockwell",
+    "Price":900,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":8,
+          "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk.PrimalItemResource_ApexDrop_Basilisk'"
+        },
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":20,
+          "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemConsumable_NamelessVenom.PrimalItemConsumable_NamelessVenom'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":7,
+          "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_XenomorphPheromoneGland.PrimalItemResource_XenomorphPheromoneGland'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":7,
+          "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_RockDrake.PrimalItemResource_ApexDrop_RockDrake'"
+        },
+	    {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk_Alpha.PrimalItemResource_ApexDrop_Basilisk_Alpha'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_CrabClaw.PrimalItemResource_ApexDrop_CrabClaw'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_ReaperBarb.PrimalItemResource_ApexDrop_ReaperBarb'"
+        }
+	  
+	  ]
+  },
   "Talon":{
     "Type":"item",
     "Description":"Argentavis Talon",
@@ -360,6 +475,19 @@
         }
       ]
   },
+  "Claws":{
+    "Type":"item",
+    "Description":"Therizino Claws",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_apexdrop_theriz.primalitemresource_apexdrop_theriz'"
+        }
+      ]
+  },
   "Tentacle":{
     "Type":"item",
     "Description":"Tusoteuthis Tentacle",
@@ -384,6 +512,108 @@
           "Amount":10,
           "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilo.PrimalItemResource_ApexDrop_Basilo'"
         }
+      ]
+  },
+  "Heart":{
+    "Type":"item",
+    "Description":"Giganotosaurus Heart",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_apexdrop_giga.primalitemresource_apexdrop_giga'"
+        }
+      ]
+  },
+  "Arm":{
+    "Type":"item",
+    "Description":"Tyrannosaurus Arm",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Rex.PrimalItemResource_ApexDrop_Rex'"
+        }
+      ]
+  },
+  "Brain":{
+    "Type":"item",
+    "Description":"Allosaurus Brain",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo'"
+        }
+      ]
+  },
+  "Lungs":{
+    "Type":"item",
+    "Description":"Yutyrannus Lungs",
+    "Price":300,
+    "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":10,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_apexdrop_Yuty.primalitemresource_apexdrop_yuty'"
+        }
+      ]
+  },
+  "TekCave":{
+  "Type":"item",
+  "Description":"Apex for Tek Cave Alpha",
+  "Price":900,
+   "Items":[
+        {
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRaptor.PrimalItemResource_ApexDrop_AlphaRaptor'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaCarno.PrimalItemResource_ApexDrop_AlphaCarno'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRex.PrimalItemResource_ApexDrop_AlphaRex'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMegalodon.PrimalItemResource_ApexDrop_AlphaMegalodon'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMosasaur.PrimalItemResource_ApexDrop_AlphaMosasaur'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaTuso.PrimalItemResource_ApexDrop_AlphaTuso'"
+        },
+		{
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Amount":1,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaLeeds.PrimalItemResource_ApexDrop_AlphaLeeds'"
+        }
+		
       ]
   },
   
@@ -415,7 +645,7 @@
     "ReceivedPoints":"<RichColor Color=\"1, 1, 0, 1\">You have received {0} points! (total: {1})</>",
     "HavePoints":"You have {0} points",
     "NoPoints":"<RichColor Color=\"1, 0, 0, 1\">You don't have enough points</>",
-    "WrongId":"<RichColor Color=\"1, 0, 0, 1\">Wrong id</>",
+    "WrongId":"<RichColor Color=\"1, 0, 0, 1\">Wrong id, or item is not available yet</>",
     "NoPermissionsKit":"<RichColor Color=\"1, 0, 0, 1\">You don't have permission to use this kit</>",
     "CantBuyKit":"<RichColor Color=\"1, 0, 0, 1\">You can't buy this kit</>",
     "BoughtKit":"<RichColor Color=\"0, 1, 0, 1\">You have successfully bought {0} kit</>",
@@ -430,7 +660,7 @@
     "NoPlayer":"<RichColor Color=\"1, 0, 0, 1\">Player doesn't exist</>",
     "FoundMorePlayers":"<RichColor Color=\"1, 0, 0, 1\">Found more than one player with the given name</>",
     "BuyUsage":"Usage: /buy id amount",
-    "ShopUsage":"Usage: /shop page",
+    "ShopUsage":"Usage: Press F2 for Shop Interface",
     "KitUsage":"Usage: /kit KitName",
     "BuyKitUsage":"Usage: /BuyKit KitName amount",
     "TradeUsage":"Usage: /trade 'Player Name' amount",
